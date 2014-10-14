@@ -35,8 +35,8 @@
 </style>
 		
 <section class="te-button-container">
-	<a class="button-secondary" href="https://wordpress.org/support/plugin/timeline-express" targer="_blank"><?php _e( 'Help!' , 'timeline-express' ); ?></a>
-	<a class="button-secondary" href="https://wordpress.org/support/view/plugin-reviews/timeline-express" targer="_blank"><?php _e( 'Review' , 'timeline-express' ); ?></a>
+	<a class="button-secondary" href="https://wordpress.org/support/plugin/timeline-express" target="_blank"><?php _e( 'Help!' , 'timeline-express' ); ?></a>
+	<a class="button-secondary" href="https://wordpress.org/support/view/plugin-reviews/timeline-express" target="_blank"><?php _e( 'Review' , 'timeline-express' ); ?></a>
 	<a class="button-secondary" href="http://www.evan-herman.com/contact/?contact-name=<?php echo $current_user_name; ?>&contact-reason=I want to make a donation for all your hard work" target="_blank"><?php _e( 'Donate' , 'timeline-express' ); ?></a>	
 <br />
 <br />
