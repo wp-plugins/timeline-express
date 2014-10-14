@@ -262,11 +262,11 @@ if(!class_exists("timelineExpressBase"))
 					
 					$meta_boxes['about_the_author'] = array(
 						'id'         => 'about_the_author',
-						'title'      => __( 'Information', 'timeline-express' ),
+						'title'      => __( 'About', 'timeline-express' ),
 						'pages'      => array( 'te_announcements', ), // Post type
 						'context'    => 'side',
 						'priority'   => 'low',
-						'show_names' => true, // Show field names on the left
+						'show_names' => false, // Show field names on the left
 						// 'cmb_styles' => true, // Enqueue the CMB stylesheet on the frontend
 						'fields'     => array(
 							array(
