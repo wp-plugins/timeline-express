@@ -7,7 +7,7 @@ Tested up to: 4.0
 Stable tag: 1.0
 License: GPLv2 or later
 
-Timeline express allows you to create a beautiful vertical animated and responsive timeline of posts , without writing a single line of code. Font Awesome Included - Sweet!
+Timeline express allows you to create a beautiful vertical animated and responsive timeline of posts , without writing a single line of code. Sweet!
 
 == Description ==
 
