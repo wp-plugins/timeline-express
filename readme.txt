@@ -7,7 +7,7 @@ Tested up to: 4.0
 Stable tag: 1.0
 License: GPLv2 or later
 
-Timeline express allows you to create a beautiful vertical animated and responsive timeline of posts , without writing a single line of code. Sweet!
+Timeline express allows you to create a beautiful vertical animated and responsive timeline of posts , without writing a single line of code. Font Awesome Included - Sweet!
 
 == Description ==
 
@@ -98,11 +98,11 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 == Screenshots ==
 
-1. Full vertical Timeline Express
-2. Timeline Express responsive (mobile version)
-3. Creating a new announcement. Select an announcement color, an icon an announcement date and set an image.
-4. All announcements on the Edit Announcements page
-5. Timeline Express settings page
+1. Timeline Express announcement post creation screen
+2. Timeline Express announcement management on the 'Edit Announcements' page
+3. Timeline Express sample timeline with multiple icons/colors
+4. Timeline Express responsive (mobile version)
+5. Timeline Express full settings page
 
 == Changelog ==
 = 1.0.0 =
