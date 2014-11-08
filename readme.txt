@@ -116,6 +116,7 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 = 1.0.4 = 
 * Chinese language translation now included (zh_CN) - thanks goes to <a href="http://www.vahichen.com" target="_blank">Vahi Chen</a>
+* Removed some un-necessary styles (timeline title/content font-size+font-family declerations)
 
 = 1.0.3 = 
 * Included new function to retain formatting in the announcement excerpt in the timeline (`te_wp_trim_words_retain_formatting()`)
@@ -132,7 +133,7 @@ Chinese language translation now included
 
 == Upgrade Notice ==
 = 1.0.4
-* Included chinese language translation (zh_CN) - thanks goes to <a href="http://www.vahichen.com" target="_blank">Vahi Chen</a>
+We have now included chinese language translation (zh_CN) - thanks goes to <a href="http://www.vahichen.com" target="_blank">Vahi Chen</a>. We have also made a few adjustments to the style declerations of the timeline content and title on the front end.
 
 = 1.0.3 = 
 * Included new function to retain formatting in the announcement excerpt in the timeline (te_wp_trim_words_retain_formatting())
