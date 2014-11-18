@@ -15,6 +15,7 @@ Timeline express allows you to create a vertical animated timeline of announceme
 
 **Features**
 
+* Load a custom template for single announcements (new)
 * Hundreds of Font awesome icons included. Specify a different icon for each announcement
 * CSS3 animations on scroll
 * Set the color of the announcement
