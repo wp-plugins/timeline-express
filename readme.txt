@@ -41,7 +41,7 @@ Timeline express comes ready for translation. I would love to get things transla
 
 <em>We're always looking for polyglots to help with the translations. If you enjoy this plugin, speak multiple languages and want to contribute please get in touch about how you can help translate things so users around the world can benefit from this plugin.</em>
 
-** Hooks + Filters **
+**Hooks + Filters**
 
 **Setup a custom date format for front end display (New v1.0.9)**
 
