@@ -86,8 +86,8 @@ add_filter( 'timeline_express_custom_date_format' , 'custom_te_date_format' , 10
 <em>[view more date formatting parameters](http://php.net/manual/en/function.date.php)</em>
 
 
-
 **Load Your Own Single Announcement Template File (New v1.0.8)**
+
 By default all single announcements will try and load a single.php template file. If that can't be found, we've done our best to implement a template for you. If your unhappy with the template file we've provided you have two options. Your first option is to copy over the single-announcement-template directory contained within the plugin into your active themes root. This will trigger the plugin to load that file instead. You can then customize this file to your hearts content without fear of losing any of your changes in the next update.
 
 Your next option is to use our new filter for loading your own custom template file. If for whatever reason you've designed or developed your own single.php file which you would rather use, or you just want to use your themes page.php template instead, you can use the provided filter to change the loaded template. Here is an example ( you want to drop this code into your active theme's functions.php file ) :
