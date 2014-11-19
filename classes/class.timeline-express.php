@@ -770,7 +770,8 @@ if(!class_exists("timelineExpressBase"))
 													<!-- title -->
 													<span class="cd-timeline-title-container"><h2 class="cd-timeline-item-title"><?php the_title();?></h2><?php if ( $this->timeline_express_optionVal['date-visibility'] == 1 ) { ?>
 														<!-- release date -->
-														<span class="timeline-date"><?php echo date( 'M j , Y' , get_post_meta( $post->ID , 'announcement_date' , true ) ); ?></span>
+														<!-- now localized, for international date formats based on the 'date_format' option -->
+														<span class="timeline-date"><?php echo date_i18n( apply_filters( 'timeline_express_custom_date_format' , get_option( 'date_format' ) ) , get_post_meta( $post->ID , 'announcement_date' , true ) ); ?></span>
 													<?php } ?></span>
 													<?php if ( $announcement_image != '' ) { ?>
 														<img src="<?php echo $announcement_image; ?>" class="cd-timeline-announcement-image">
