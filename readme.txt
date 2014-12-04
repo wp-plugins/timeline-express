@@ -3,8 +3,8 @@ Contributors: eherman24
 Donate link: http://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Tags: vertical, timeline, animated, css3, animations, evan, herman, evan herman, easy, time, line, font awesome, font, awesome, announcements, notifications, simple, events, calendar, scroll, triggered, scrolling, animated, fade, in, fade in
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.0.9
+Tested up to: 4.0.1
+Stable tag: 1.1
 License: GPLv2 or later
 
 Timeline express allows you to create a beautiful vertical animated and responsive timeline of posts , without writing a single line of code. Sweet!
@@ -33,13 +33,14 @@ Timeline express allows you to create a vertical animated timeline of announceme
 
 **Translated**
 
-Timeline express comes ready for translation. I would love to get things translated to as many languages as possible. At the moment the following translations are available for Timeline Express
+Timeline express comes ready for translation. I would love to get things translated into as many languages as possible. At the moment the following translations are available for Timeline Express :
 
 * English
 * Chinese (zh_CN) - thanks goes to <a href="http://www.vahichen.com" target="_blank">Vahi Chen</a>
 * Portuguese (pt_BR) - thanks goes to <a href="http://toborino.com" target="_blank">Gustavo Magalhães</a>
+* Polish (pl_PL) - thanks goes to Kanios
 
-<em>We're always looking for polyglots to help with the translations. If you enjoy this plugin, speak multiple languages and want to contribute please get in touch about how you can help translate things so users around the world can benefit from this plugin.</em>
+<em>We're always looking for polyglots to help with the translations. If you enjoy this plugin, speak multiple languages and want to contribute please <a href="http://www.evan-herman.com/contact/" target="_blank">contact me</a> about how you can help translate things so users around the world can benefit from this plugin.</em>
 
 **Hooks + Filters**
 
@@ -185,6 +186,15 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 == Changelog ==
 
+= 1.1 - December 3rd, 2014 =
+* Fixed: Fixed styles when timeline is inside posts (fixed icon size, duplicate images)
+* Fixed: Fixed a few enqueue functions
+* Enhancement: Polish language translation now included (pl_PL) - thanks goes to Kanios
+* Enhancement: Enqueued new styles on single announcement posts to style the announcement pages a bit better
+* Enhancement: Added new custom image size, to unify announcement images on the timeline ('timeline-express')
+* Enhancement: Added new function `timeline_express_get_image_id()` to get attachment image IDs by URL
+* Enhancement: Stripped out a lot of un-needed code
+
 = 1.0.9 - November 19th, 2014 =
 * Updated: Localized date format displayed on the front end as requested by our international users ( format now takes on what you have in 'General > Settings' )
 * Updated: Fixed styling issue on date picker arrows
@@ -225,6 +235,9 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 * Initial Release to the WordPress repository
 
 == Upgrade Notice ==
+= 1.0.9 - December 3rd, 2014 =
+We've updated some of the styles packaged with Timeline Express, added a new custom image size for announcements (you may need to regererate your images) multiple style issues when the timeline is used inside posts.
+
 = 1.0.9 - November 19th, 2014 =
 Localized date formats based on 'General > Settings', and added a custom filter to allow users to alter the date format however they see fit.
 
