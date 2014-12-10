@@ -48,8 +48,6 @@ Timeline express comes ready for translation. I would love to get things transla
 
 Users can now alter the 'Read More' button text using the provided gettext filter and the 'timeline-express' text domain.
 
-Parameters :
-
 Example:
 <code>
 // alter 'Read more' to say 'View Announcement'
