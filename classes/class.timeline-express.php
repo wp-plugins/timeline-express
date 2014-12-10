@@ -166,29 +166,29 @@ if(!class_exists("timelineExpressBase"))
 					// Register our Announcement Custom Post Type
 						// used to easily manage the announcements on the site
 					$timeline_express_labels = array(
-						'name'                => 'Timeline Express',
-						'singular_name'       => 'Announcement', // menu item at the top New > Announcement
-						'menu_name'           => 'Timeline Express', // menu name
-						'parent_item_colon'   => 'Timeline Express:',
-						'all_items'           => 'All Announcements',
-						'view_item'           => 'View Announcement',
-						'add_new_item'        => 'New Announcement',
-						'add_new'             => 'New Announcement',
-						'edit_item'           => 'Edit Announcement',
-						'update_item'         => 'Update Announcement',
-						'search_items'        => 'Search Announcements',
-						'not_found'           => 'No Timeline Express Announcements Found',
-						'not_found_in_trash'  => 'No Timeline Express Announcements in Trash',
+						'name'                => __( 'Timeline Express Announcements' , 'timeline-express' ),
+						'singular_name'       =>  __( 'Announcement' , 'timeline-express' ), // menu item at the top New > Announcement
+						'menu_name'           =>  __( 'Timeline Express' , 'timeline-express' ), // menu name
+						'parent_item_colon'   =>  __( 'Timeline Express:' , 'timeline-express' ),
+						'all_items'           =>  __( 'All Announcements' , 'timeline-express' ),
+						'view_item'           =>  __( 'View Announcement' , 'timeline-express' ),
+						'add_new_item'        =>  __( 'New Announcement' , 'timeline-express' ),
+						'add_new'             =>  __( 'New Announcement' , 'timeline-express' ),
+						'edit_item'           =>  __( 'Edit Announcement' , 'timeline-express' ),
+						'update_item'         =>  __( 'Update Announcement' , 'timeline-express' ),
+						'search_items'        =>  __( 'Search Announcements' , 'timeline-express' ),
+						'not_found'           =>  __( 'No Timeline Express Announcements Found' , 'timeline-express' ),
+						'not_found_in_trash'  =>  __( 'No Timeline Express Announcements in Trash' , 'timeline-express' ),
 					);
 					$timeline_express_rewrite = array(
-						'slug'                => 'announcement',
+						'slug'                => apply_filters( 'timeline-express-permalink' , 'announcement' ),
 						'with_front'          => false,
 						'pages'               => true,
 						'feeds'               => true,
 					);
 					$timeline_express_args = array(
 						'label'               => 'timeline-express-announcement',
-						'description'         => 'Post type for adding timeline express announcements to the site',
+						'description'         => __( 'Post type for adding timeline express announcements to the site' , 'timeline-express' ),
 						'labels'              => $timeline_express_labels,
 						'supports'            => array( 'title', 'editor' ),
 						'taxonomies'          => array(),
@@ -321,7 +321,7 @@ if(!class_exists("timelineExpressBase"))
 					$timeline_express_announcement_columns['icon'] = _x('Icon', 'column name');
 					$timeline_express_announcement_columns['announcement_date'] = _x('Announcement Date', 'column name');
 					$timeline_express_announcement_columns['image'] = _x('Image', 'column name');
-					$timeline_express_announcement_columns['past_announcement'] = _x('Announcment Past?', 'column name');
+					$timeline_express_announcement_columns['past_announcement'] = _x('Announcement Past?', 'column name');
 					return $timeline_express_announcement_columns;
 				}
 		

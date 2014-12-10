@@ -138,7 +138,7 @@ function toggle_delete_checkbox() {
 
 <!-- evan herman logo on all settings pages -->
 <div id="timeline_express_review_this_plugin_container">
-	<a href="http://www.evan-herman.com/contact/?contact-name=<?php echo $current_user_name; ?>&contact-reason=I want to make a donation for all your hard work" target="_blank" title="Cosnider Making a Donation For Continued Support">
+	<a href="http://www.evan-herman.com/contact/?contact-name=<?php echo $current_user_name; ?>&contact-reason=I want to make a donation for all your hard work" target="_blank" title="Consider Making a Donation For Continued Support">
 		<span class="timeline_express_need_support">
 			<strong>
 				<?php _e( 'Please Consider', 'timeline-express' ); ?> <br />
@@ -250,7 +250,7 @@ function toggle_delete_checkbox() {
 				</tr>
 				<!-- Excerpt Trim Length -->
 				<tr valign="top">
-					<th scope="row"><label for="excerpt-trim-length"><?php _e('Announcement Exceprt Length','timeline-express'); ?></label></th>
+					<th scope="row"><label for="excerpt-trim-length"><?php _e('Announcement Excerpt Length','timeline-express'); ?></label></th>
 					<td>
 						<input <?php if( $this->timeline_express_optionVal['excerpt-random-length'] == '1' ) { ?> style="display:none;" <?php } ?> type="number" name="excerpt-trim-length" min="25" max="200" value="<?php echo $this->timeline_express_optionVal['excerpt-trim-length']; ?>"><label for="excerpt-random-length"><input type="checkbox" id="excerpt-random-length" name="excerpt-random-length" onclick="changeRandomTrimLengthCheckbox();" value="1" <?php checked( $this->timeline_express_optionVal['excerpt-random-length'] , '1' ); ?> <?php if( $this->timeline_express_optionVal['excerpt-random-length'] == '0' ) { ?> style="margin-left:.5em;" <?php } ?>><span id="random-lenth-text-container"<?php if( $this->timeline_express_optionVal['excerpt-random-length'] == '0' ) { ?> class="random-length-text" <?php } ?>>random length</label></span>
 					</td>
@@ -276,7 +276,7 @@ function toggle_delete_checkbox() {
 					<td></td>
 					<!-- Toggle Date Visibility Description -->
 					<td class="timeline-express-settings-description">
-						<?php _e('toggle the visibility of the date next to the icon.','timeline-express'); ?>
+						<?php _e('Toggle the visibility of the date next to the icon.','timeline-express'); ?>
 					</td>
 				</tr>	
 				<!-- Toggle Read Visibility More -->
@@ -293,7 +293,7 @@ function toggle_delete_checkbox() {
 					<td></td>
 					<!-- Toggle Read More Visibility Description -->
 					<td class="timeline-express-settings-description">
-						<?php _e('toggle the visibility of the read more button. hide to prevent users from viewing the full announcement.','timeline-express'); ?>
+						<?php _e('Toggle the visibility of the read more button. Hide to prevent users from viewing the full announcement.','timeline-express'); ?>
 					</td>
 				</tr>
 				<tr valign="top">
