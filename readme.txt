@@ -247,6 +247,7 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 = 1.1.4 - December 24th, 2014 =
 * Enhancement: Implemented premium support licensing. Any issues that require immediate response, or custom code should purchase a support license.
+* Enhancement: Added a new filter to customize the announcement slug (possibly for SEO purposes) (timeline-express-slug , check documentation for examples)
 * Enhancement: Moved settings/support below Timeline Express parent menu item
 * Fixed: Errors thrown when announcement images aren't set
 * Fixed: Display error where announcements displayed a different date on the backend vs frontend
@@ -324,6 +325,7 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 = 1.1.4 - December 24th, 2014 =
 * Enhancement: Implemented premium support licensing. Any issues that require immediate response, or custom code should purchase a support license.
+* Enhancement: Added a new filter to customize the announcement slug (possibly for SEO purposes) (timeline-express-slug , check documentation for examples)
 * Enhancement: Moved settings/support below Timeline Express parent menu item
 * Fixed: Errors thrown when announcement images aren't set
 * Fixed: Display error where announcements displayed a different date on the backend vs frontend
