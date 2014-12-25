@@ -138,7 +138,7 @@ function toggle_delete_checkbox() {
 
 <!-- evan herman logo on all settings pages -->
 <div id="timeline_express_review_this_plugin_container">
-	<a href="http://www.evan-herman.com/contact/?contact-name=<?php echo $current_user_name; ?>&contact-reason=I want to make a donation for all your hard work" target="_blank" title="Consider Making a Donation For Continued Support">
+	<a href="http://www.evan-herman.com/contact/?contact-name=<?php echo $current_user_name; ?>&contact-reason=I want to make a donation for all your hard work" target="_blank" title="Cosnider Making a Donation For Continued Support">
 		<span class="timeline_express_need_support">
 			<strong>
 				<?php _e( 'Please Consider', 'timeline-express' ); ?> <br />
@@ -147,7 +147,7 @@ function toggle_delete_checkbox() {
 			</strong>
 		</span>
 	</a>
-	<a href="https://wordpress.org/support/plugin/timeline-express" target="_blank" title="Timeline Express Support">
+	<a href="<?php echo admin_url() . 'edit.php?post_type=te_announcements&page=timeline-express-support'; ?>" title="Timeline Express Premium Support">
 		<span class="timeline_express_need_support">
 			<strong>
 				<?php _e( 'Need Help?', 'timeline-express' ); ?> <br />
@@ -170,14 +170,12 @@ function toggle_delete_checkbox() {
 	</a>
 </div>
 
-<!-- tabs -->
-<h2 class="nav-tab-wrapper">
-    <a href="#" onclick="return false;" class="nav-tab <?php echo $active_tab == 'settings' ? 'nav-tab-active' : ''; ?>"><?php _e('Timeline Express','timeline-express'); ?></a>
-</h2>
-
-	<h2 id="timeline-express-page-header">
+	<h1 id="timeline-express-page-header">
 		<div id="timeline-express-icon" class="icon32"></div><?php _e('Timeline Express Settings','timeline-express'); ?>
-	</h2>
+		<p style="margin-top:0;font-weight:200;"><?php _e( 'make adjustments to your timeline here, ranging from style to display options' , 'timeline-express' ); ?><p>
+	</h1>
+
+	<hr style="margin-top:4em;"/>
 	
 	<div class="timeline-express-status" id="timeline-express-status"></div>
 	
@@ -367,8 +365,8 @@ function toggle_delete_checkbox() {
 					</td>
 				</tr>
 				<tr valign="top">
-					<!-- No Events Message -->
-					<th scope="row"><label for="no-events-message"><?php _e('No Events Message','timeline-express'); ?></label></th>
+					<!-- No Announcements Message -->
+					<th scope="row"><label for="no-events-message"><?php _e('No Announcements Message','timeline-express'); ?></label></th>
 					<td>
 						<?php wp_editor( stripslashes( $this->timeline_express_optionVal['no-events-message'] ) , 'no-events-message', $no_event_messages_parameters); ?>				
 					</td>
