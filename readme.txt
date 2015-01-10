@@ -283,7 +283,7 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 == Changelog ==
 
-=1.1.5.1 - January 10th, 2015 =
+= 1.1.5.1 - January 10th, 2015 =
 Fixed: Data saving incorrectly to the database, causing errors to be thrown on front and back end
 
 = 1.1.5 - January 10th, 2015 =
@@ -373,7 +373,7 @@ Fixed: Adjusted a few styles on the announcement post page
 
 == Upgrade Notice ==
 
-=1.1.5.1 - January 10th, 2015 =
+= 1.1.5.1 - January 10th, 2015 =
 Fixed: Data saving incorrectly to the database, causing errors to be thrown on front and back end
 
 = 1.1.5 - January 10th, 2015 =
