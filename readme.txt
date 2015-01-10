@@ -44,7 +44,7 @@ Timeline express comes ready for translation. I would love to get things transla
 
 **Hooks + Filters**
 
-** Define your own custom fields to use in Announcement posts (New v1.1.5)**
+**Define your own custom fields to use in Announcement posts (New v1.1.5)**
 
 Users can now add custom fields to Timeline Express announcement posts. This allows for greater control over the announcements and the front end display. Using this hook in conjunction with a custom single announcement template will give you the greatest control.
 
