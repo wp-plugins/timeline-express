@@ -168,7 +168,7 @@ if(!class_exists("timelineExpressBase"))
 				</style>
 				<?php
 				if( $meta && isset( $meta ) ){
-					echo '<input class="cmb_text_small cmb_datepicker" type="text" name="', $field['id'], '" id="', $field['id'], '" value="', '' !== $meta ? date( 'm/d/Y' , strtotime( $meta ) ) : $field['default'], '" />';
+					echo '<input class="cmb_text_small cmb_datepicker" type="text" name="', $field['id'], '" id="', $field['id'], '" value="', '' !== $meta ? date( 'm/d/Y' , $meta ) : $field['default'], '" />';
 					echo '<p class="cmb_metabox_description">'.$field['desc'].'</p>';
 				} else{
 					echo '<input class="cmb_text_small cmb_datepicker" type="text" name="', $field['id'], '" id="', $field['id'], '" value="' . date('m/d/Y' ) .'" />';
@@ -473,7 +473,7 @@ if(!class_exists("timelineExpressBase"))
 								'desc' => __( 'enter the date of the announcement. the announcements will appear in chronological order according to this date. ', 'timeline-express' ),
 								'id'   => $prefix . 'date',
 								'type' => 'te_date_time_stamp_custom',
-								 'default' => date( 'm/d/Y' ), 
+								 'default' => strtotime( date( 'm/d/Y' ) ), 
 								// 'repeatable' => true,
 								// 'on_front' => false, // Optionally designate a field to wp-admin only
 							),
