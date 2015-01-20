@@ -147,8 +147,6 @@ if(!class_exists("timelineExpressBase"))
 					add_action( 'cmb_render_te_date_time_stamp_custom', array($this,'cmb_render_te_date_time_stamp_custom'), 10, 2 );
 					// render new custom timeline express about metabox
 					add_action( 'cmb_render_te_about_metabox', array($this,'cmb_render_te_about_metabox'), 10, 2 );
-					// add custom hook to allow users to add there own fields
-					add_action('the_action_hook', array( $this, 'the_action_callback' ) );
 					// custom vlaidation for our new custom field
 					 //Validate new metabox type
 					add_filter( 'cmb_validate_te_date_time_stamp_custom', array( $this, 'cmb_validate_te_date_time_stamp_custom' ) , 10, 2 );
@@ -537,18 +535,6 @@ if(!class_exists("timelineExpressBase"))
 				}
 				// End metabox definitions	
 				
-			function the_action_callback() {
-				$field = array(
-								'name' => __( 'Announcement Image', 'timeline-express' ),
-								'desc' => __( 'select a banner image for this announcement (optional). (recommended 650px wide or larger)  ', 'timeline-express' ),
-								'id'   => $prefix . 'image',
-								'type' => 'file',
-								// 'repeatable' => true,
-								// 'on_front' => false, // Optionally designate a field to wp-admin only
-							);
-					return $field;
-			}
-
 			/* Change Testimonial Title */
 			public function change_default_announcement_title( $title ){
 					$screen = get_current_screen();
