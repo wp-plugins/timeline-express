@@ -119,7 +119,7 @@ Have an idea for a future release feature? I love hearing about new ideas! You c
 
 **Hooks + Filters**
 
-**Use Alternate Image Size For Announcements (New v1.1.5)**
+**Use Alternate Image Size For Announcements (New v1.1.5.5)**
 
 By default Timeline Express generates a custom image size to use within the timeline. If you would like to use another image size, you can use the following filter.
 
