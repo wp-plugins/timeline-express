@@ -257,7 +257,7 @@ function toggle_delete_checkbox() {
 					<td></td>
 					<!-- Excerpt Trim Length Description -->
 					<td class="timeline-express-settings-description">
-						<?php _e('set the length of the excerpt for each announcement. ( min=25;max=500 eg: 50 = 50 characters )','timeline-express'); ?>
+						<?php _e('Set the length of the excerpt for each announcement. ( min=25;max=500 eg: 50 = 50 characters )','timeline-express'); ?>
 					</td>
 				</tr>
 				<!-- Toggle Date Visibility -->
@@ -389,7 +389,7 @@ function toggle_delete_checkbox() {
 					<td></td>
 					<!-- Background Line Color Description -->
 					<td class="timeline-express-settings-description">
-						<?php _e('select this to delete all announcement posts from the data base on plugin uninstallation. this can not be undone, once they are deleted they are gone forever. If you want to keep them, export your announcements before uninstalling.','timeline-express'); ?>
+						<?php _e('Select this to delete all announcement posts from the data base on plugin uninstallation. this can not be undone, once they are deleted they are gone forever. If you want to keep them, export your announcements before uninstalling.','timeline-express'); ?>
 					</td>
 				</tr>
 				<tr>
