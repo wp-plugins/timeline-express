@@ -305,6 +305,7 @@ add_filter( 'timeline_express_custom_template' , 'custom_timeline_express_templa
 * Enhancement: Upgraded font-awesome to 4.3.0
 * Enhancement: Added icon select dropdown on the settings page, to better mirror the post/page edit screens
 * Enhancement: Added new setting to toggle Timeline posts from appearing in search queries on the front end (defaults to true) 
+* Enhancement: Packaged German translation - thanks to <a href="http://www.fairsoft.koeln" target="_blank">Martin Gerlach</a>
 
 = 1.1.5.7 - February 5th, 2015 =
 * Enhancement: Added a dropdown to select the font awesome icon
@@ -423,6 +424,7 @@ add_filter( 'timeline_express_custom_template' , 'custom_timeline_express_templa
 * Enhancement: Upgraded font-awesome to 4.3.0
 * Enhancement: Added icon select dropdown on the settings page, to better mirror the post/page edit screens
 * Enhancement: Added new setting to toggle Timeline posts from appearing in search queries on the front end (defaults to true) 
+* Enhancement: Packaged German translation - thanks to <a href="http://www.fairsoft.koeln" target="_blank">Martin Gerlach</a>
 
 = 1.1.5.7 - February 5th, 2015 =
 * Message From The Author: Sorry for multiple updates on the same day. I was feeling ambitious and rolled out one patch to fix an issue and another with some new features. Enjoy :)
