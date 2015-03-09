@@ -460,7 +460,7 @@ if(!class_exists("timelineExpressBase"))
 						'supports'            => array( 'title', 'editor' ),
 						'taxonomies'          => array(),
 						'hierarchical'        => true,
-						'public'              => $announcements_public, // toggled via setitngs page - @since v1.1.5.8
+						'public'              => true,
 						'show_ui'             => true,
 						'show_in_menu'        => true,
 						'show_in_nav_menus'   => true,
@@ -469,6 +469,8 @@ if(!class_exists("timelineExpressBase"))
 						'menu_icon' 			=> TIMELINE_EXPRESS_URL . '/images/timeline-express-menu-icon.png',
 						'can_export'          => true,
 						'has_archive'         => true,
+						'exclude_from_search' =>  $announcements_public, // toggled via setitngs page - @since v1.1.5.8,
+						'publicly_queryable'  => true,
 						'rewrite'             => $timeline_express_rewrite,
 						'capability_type'     => 'page',
 					);
