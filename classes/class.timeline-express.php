@@ -168,8 +168,8 @@ if(!class_exists("timelineExpressBase"))
 				if( !isset( $this->timeline_express_optionVal['announcement-appear-in-searches'] ) ) {
 					$this->timeline_express_optionVal['announcement-appear-in-searches'] = 'true';
 				}
-				// update the options
-				update_option( TIMELINE_EXPRESS_OPTION , $this->timeline_express_optionVal );
+				// update the options -> breaks previous users settings....
+				// update_option( TIMELINE_EXPRESS_OPTION , $this->timeline_express_optionVal );
 			}
 			
 			/*
