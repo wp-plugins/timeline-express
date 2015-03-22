@@ -1269,6 +1269,10 @@ if(!class_exists("timelineExpressBase"))
 						// get the icons out of the css file
 						$response = wp_remote_get( 'http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css' );
 						
+						if( is_wp_error( $response ) ) {
+							wp_die( $resposne->get_error_message() , $response->title , array( 'back_link' => true ) );
+						}
+
 						// splot the response body, and store the icon classes in a variable
 						$split_dat_response = explode( 'icons */' , $response['body'] );
 						
