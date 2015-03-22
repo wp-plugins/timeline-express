@@ -608,7 +608,7 @@ if(!class_exists("timelineExpressBase"))
 					$timeline_express_announcement_columns['icon'] = _x('Icon', 'timeline-express');
 					$timeline_express_announcement_columns['announcement_date'] = _x('Announcement Date', 'timeline-express');
 					$timeline_express_announcement_columns['image'] = _x('Image', 'timeline-express');
-					$timeline_express_announcement_columns['past_announcement'] = _x('Announcment Past?', 'timeline-express');
+					$timeline_express_announcement_columns['past_announcement'] = _x('Announcement Past?', 'timeline-express');
 					return $timeline_express_announcement_columns;
 				}
 		
