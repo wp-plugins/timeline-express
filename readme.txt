@@ -303,6 +303,7 @@ add_filter( 'timeline_express_custom_template' , 'custom_timeline_express_templa
 
 = 1.1.6.4 - March 23rd, 2015 =
 * Enhancement: Packaged French translation - thanks goes to Julien Lambert
+* Enhancement: Fixed a few typos in the plugin
 
 = 1.1.6.3 - March 22nd, 2015 =
 * Enhancement: Added wp_error class to catch errors thrown by `wp_remote_get()` when building the bootstrap dropdown.
@@ -440,6 +441,7 @@ add_filter( 'timeline_express_custom_template' , 'custom_timeline_express_templa
 
 = 1.1.6.4 - March 23rd, 2015 =
 * Enhancement: Packaged French translation - thanks goes to Julien Lambert
+* Enhancement: Fixed a few typos in the plugin
 
 = 1.1.6.3 - March 22nd, 2015 =
 * Enhancement: Added wp_error class to catch errors thrown by `wp_remote_get()` when building the bootstrap dropdown.
