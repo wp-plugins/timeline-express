@@ -3,7 +3,7 @@ Contributors: eherman24
 Donate link: http://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Tags: vertical, timeline, animated, css3, animations, evan, herman, evan herman, easy, time, line, font awesome, font, awesome, announcements, notifications, simple, events, calendar, scroll, triggered, scrolling, animated, fade, in, fade in
 Requires at least: 3.9
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 1.1.6.6
 License: GPLv2 or later
 
