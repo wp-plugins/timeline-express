@@ -933,7 +933,7 @@ if(!class_exists("timelineExpressBase"))
 					// Enqueue Styles
 					wp_enqueue_style( 'timeline-express-base', TIMELINE_EXPRESS_URL . 'css/timeline-express.min.css' , array() , '' , 'all' );
 					// enqueue font awesome for use in the timeline
-					wp_enqueue_style( 'prefix-font-awesome' , '//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' , array() , '4.2.0' );
+					wp_enqueue_style( 'prefix-font-awesome' , '//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' , array() , '4.3.0' );
 				}
 
 			/***** SHORTCODE
