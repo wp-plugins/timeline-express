@@ -1025,21 +1025,21 @@ if(!class_exists("timelineExpressBase"))
 										text-align: <?php echo $title_alignment; ?>;
 									}
 									.cd-timeline-block:nth-child(odd) .cd-timeline-content::before {
-										border-left-color: <?php if ( $content_background == '' ) { echo 'transparent'; } else { echo $content_background . '!important'; } ?>;
+										border-left-color: <?php if ( $content_background == '' ) { echo 'transparent'; } else { echo $content_background; } ?>;
 									}	
 									.cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-										border-right-color: <?php if ( $content_shadow == '' ) { echo 'transparent'; } else { echo $content_background. '!important'; } ?>;
+										border-right-color: <?php if ( $content_shadow == '' ) { echo 'transparent'; } else { echo $content_background; } ?>;
 									}
 									#cd-timeline::before {
-										background: <?php if ( $background_line_color == '' ) { echo 'transparent'; } else { echo $background_line_color. '!important'; } ?>;
+										background: <?php if ( $background_line_color == '' ) { echo 'transparent'; } else { echo $background_line_color; } ?>;
 									}
 									@media only screen and (max-width: 821px) {
 										  .cd-timeline-content::before {
 												border-left-color: transparent;
-												border-right-color: <?php if ( $content_background == '' ) { echo 'transparent'; } else { echo $content_background. '!important'; } ?>;
+												border-right-color: <?php if ( $content_background == '' ) { echo 'transparent'; } else { echo $content_background; } ?>;
 										  }
 										  .cd-timeline-block:nth-child(odd) .cd-timeline-content::before {
-											border-left-color: transparent !important;
+											border-left-color: transparent;
 										  }
 									}
 								</style>
