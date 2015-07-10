@@ -55,6 +55,7 @@ Timeline express comes ready for translation. I would love to get things transla
 * German (de_DE) - thanks goes to <a href="http://www.fairsoft.koeln" target="_blank">Martin Gerlach</a>
 * French (fr_FR) - thanks goes to <a href="http://troisplus-et-aeliin-cosplay.fr/" target="_blank">Julien Lambert</a>
 * Italian (it_IT) - thanks goes to <a href="http://evalosapeva.com/" target="_blank">Eva Filoramo</a>
+* Hungarian (hu_HU) - thanks goes to <a href="http://www.keszites.com/" target="_blank">Zsolt</a>
 
 <em>We're always looking for polyglots to help with the translations. If you enjoy this plugin, speak multiple languages and want to contribute please <a href="http://www.evan-herman.com/contact/" target="_blank">contact me</a> about how you can help translate things so users around the world can benefit from this plugin.</em>
 
