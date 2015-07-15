@@ -182,6 +182,8 @@ if(!class_exists("timelineExpressBase"))
 			* since @v1.1.5
 			*/
 			function cmb2_render_te_date_time_stamp_custom( $field, $meta, $object_id, $object_type, $field_type_object ) {
+					// get date picker depencies
+					CMB2_JS::add_dependencies( array( 'jquery-ui-core', 'jquery-ui-datepicker' ) );
 					?>
 					<style>
 						#ui-datepicker-div { z-index: 99999 !important; }
@@ -550,15 +552,6 @@ if(!class_exists("timelineExpressBase"))
 						'desc' => __( 'enter the date of the announcement. the announcements will appear in chronological order according to this date. ', 'timeline-express' ),
 						'id'   => $prefix . 'date',
 						'type' => 'te_date_time_stamp_custom',
-						'default' => strtotime( date( 'm/d/Y' ) ), 
-					) );
-					
-// Email text field
-					$announcement_metabox->add_field( array(
-						'name' => __( 'Announcement Date', 'timeline-express' ),
-						'desc' => __( 'enter the date of the announcement. the announcements will appear in chronological order according to this date. ', 'timeline-express' ),
-						'id'   => $prefix . 'dat2e',
-						'type' => 'text_date',
 						'default' => strtotime( date( 'm/d/Y' ) ), 
 					) );
 										
